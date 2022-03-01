@@ -17,8 +17,8 @@ This is taken from the `dash introduction <https://dash.plotly.com/layout>`_.
 
     import os
     import dash
-    import dash_core_components as dcc
-    import dash_html_components as html
+    from dash import dcc
+    from dash import html
     import plotly.express as px
     import pandas as pd
 
